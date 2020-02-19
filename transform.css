@@ -1,0 +1,48 @@
+.translate-1 {
+    transform: translateX(100px);
+}
+
+.translate-2 {
+    transform: translateY(100px);
+}
+
+.translate-3 {
+    transform: translate(40px, 100px);
+}
+
+.scale-1 {
+    transform: scale(0.5);
+}
+
+.scale-2 {
+    transform: scale(2.5, 0.7);
+}
+
+.scale-3 {
+    transform: scaleX(1.7);
+}
+
+.rotate-1 {
+    transform: rotateX(80deg);
+}
+
+.rotate-2 {
+    transform: rotateY(80deg);
+}
+
+.rotate-3 {
+    transform: rotateZ(80deg);
+}
+
+
+.all-1 {
+    transform: translateX(100px) scale(0.5) rotateX(80deg);
+}
+
+.all-2 {
+    transform: translateY(100px) scale(2.5, 0.7) rotateY(40deg);
+}
+
+.all-3 {
+    transform: translate(40px, 100px) scaleX(1.7) rotateZ(80deg);
+}
