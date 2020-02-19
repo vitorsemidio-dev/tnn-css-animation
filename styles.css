@@ -11,7 +11,7 @@ body {
 }
 
 .wrapper {
-    height: 100%;
+    min-height: 100%;
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
@@ -70,13 +70,59 @@ body {
     transform: rotateZ(80deg);
 }
 
-.circle {
+.circle-1,
+.circle-2,
+.circle-3,
+.circle-4,
+.circle-5 {
     width: 100px;
     border-radius: 50px;
     padding: 50px 0;
     line-height: 0;
-    margin: 50px auto;
     cursor: pointer;
     background-color: pink;
     color: white;
+}
+
+.circle-1 {
+    transition: background-color 1s, transform 2s 1s;
+}
+
+.circle-2 {
+    transition: background-color 2s 1s, transform 0.5;
+}
+
+.circle-3 {
+    transition: 2s;
+}
+
+.circle-4 {
+    background-color: teal;
+    transition: transform 1s 1s linear;
+}
+
+.circle-5 {
+    background-color: teal;
+    transition: transform 1s 1s ease-in;
+}
+
+.circle-1:hover,
+.circle-2:hover,
+.circle-3:hover,
+.circle-4:hover,
+.circle-5:hover {
+    background-color: salmon;
+    transform: rotate(180deg);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.w-100 {
+    width: 100%;
 }

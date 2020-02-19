@@ -76,3 +76,36 @@ Também é possível aplicar o transform utilizando mais de uma função em sequ
     transform: translate(40px, 100px) scaleX(1.7) rotateZ(80deg);
 }
 ```
+
+## Transitions
+
+```css
+.example {
+    transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay];
+}
+```
+
+```css
+
+.circle-1 {
+    transition: background-color 1s, transform 2s 1s;
+}
+
+.circle-2 {
+    transition: background-color 2s 1s, transform 0.5;
+}
+
+.circle-3 {
+    transition: 2s;
+}
+
+.circle-4 {
+    background-color: teal;
+    transition: transform 1s 1s linear;
+}
+
+.circle-5 {
+    background-color: teal;
+    transition: transform 1s 1s ease-in;
+}
+```
