@@ -18,13 +18,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
-img {
-    width: 200px;
-    height: 200px;
-}
 
 .all-1 {
     transform: translateX(100px) scale(0.5) rotateX(80deg);
@@ -72,4 +68,15 @@ img {
 
 .rotate-3 {
     transform: rotateZ(80deg);
+}
+
+.circle {
+    width: 100px;
+    border-radius: 50px;
+    padding: 50px 0;
+    line-height: 0;
+    margin: 50px auto;
+    cursor: pointer;
+    background-color: pink;
+    color: white;
 }
