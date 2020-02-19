@@ -10,13 +10,16 @@
 Movimenta o elemento em um determinado sentido. Opções são **translateX**, **translateY** nos respectivos eixos. Valores positivos passados por parâmetros movimenta o elemento para direita e baixo, respectivamente. Também é possível utilizar somente **translate** passando 1 ou 2 argumentos.
 
 ```css
-.baixo-direita-100 {
+.translate-1 {
     transform: translateX(100px);
+}
+
+.translate-2 {
     transform: translateY(100px);
 }
 
-.baixo-esquerda-100 {
-    transform: translate(-100px, 100px);
+.translate-3 {
+    transform: translate(40px, 100px);
 }
 ```
 
@@ -53,5 +56,23 @@ Rotaciona o elemento em um determinado eixo.
 
 .rotate-3 {
     transform: rotateZ(80deg);
+}
+```
+
+## Transform em série
+
+Também é possível aplicar o transform utilizando mais de uma função em sequência.
+
+```css
+.all-1 {
+    transform: translateX(100px) scale(0.5) rotateX(80deg);
+}
+
+.all-2 {
+    transform: translateY(100px) scale(2.5, 0.7) rotateY(40deg);
+}
+
+.all-3 {
+    transform: translate(40px, 100px) scaleX(1.7) rotateZ(80deg);
 }
 ```

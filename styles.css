@@ -26,6 +26,30 @@ img {
     height: 200px;
 }
 
+.all-1 {
+    transform: translateX(100px) scale(0.5) rotateX(80deg);
+}
+
+.all-2 {
+    transform: translateY(100px) scale(2.5, 0.7) rotateY(40deg);
+}
+
+.all-3 {
+    transform: translate(40px, 100px) scaleX(1.7) rotateZ(80deg);
+}
+
+.translate-1 {
+    transform: translateX(100px);
+}
+
+.translate-2 {
+    transform: translateY(100px);
+}
+
+.translate-3 {
+    transform: translate(40px, 100px);
+}
+
 .scale-1 {
     transform: scale(0.5);
 }
