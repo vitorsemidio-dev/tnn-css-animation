@@ -1,15 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 body {
     background-color: lightblue;
+    height: 100%;
     text-align: center;
 }
 
 .wrapper {
+    height: 100%;
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 img {
-    transform: translate(100px);
-    transform: translateZ(20px);
+    width: 200px;
+    height: 200px;
+}
+
+.scale-1 {
+    transform: scale(0.5);
+}
+
+.scale-2 {
+    transform: scale(2.5, 0.7);
+}
+
+.scale-3 {
+    transform: scaleX(1.7);
 }
