@@ -39,12 +39,31 @@ html, body{
   top: 45%;
 }
 
+img {
+  height: 45%;
+}
+
 /*// ELEMENTS TO ANIMATE //*/
 
+.mario {
+  position: absolute;
+  top: -40px;
+  left: 0;
 
+  animation-name: drive;
+  animation-duration: 3s;
+}
 
 /*// KEYFRAMES //*/
 
+@keyframes drive {
+  from {
+    transform: translate(0)
+  }
+  to {
+    transform: translate(500px);
+  }
+}
 
 
 

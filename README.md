@@ -109,3 +109,26 @@ Também é possível aplicar o transform utilizando mais de uma função em sequ
     transition: transform 1s 1s ease-in;
 }
 ```
+
+## Keyframes
+
+```css
+.mario {
+  position: absolute;
+  top: -40px;
+  left: 0;
+
+  animation-name: drive;
+  animation-duration: 3s;
+}
+
+@keyframes drive {
+  from {
+    transform: translate(0)
+  }
+  to {
+    transform: translate(500px);
+  }
+}
+
+```
