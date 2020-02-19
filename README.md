@@ -37,3 +37,21 @@ Responsável por aumentar ou diminuir a escala do elemento. Podendo fazê-lo cre
     transform: scaleX(1.7);
 }
 ```
+
+## Rotate
+
+Rotaciona o elemento em um determinado eixo.
+
+```css
+.rotate-1 {
+    transform: rotateX(80deg);
+}
+
+.rotate-2 {
+    transform: rotateY(80deg);
+}
+
+.rotate-3 {
+    transform: rotateZ(80deg);
+}
+```
