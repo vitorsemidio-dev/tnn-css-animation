@@ -132,3 +132,38 @@ Também é possível aplicar o transform utilizando mais de uma função em sequ
 }
 
 ```
+
+## Animation Fill Mode
+
+```css
+@keyframes drive {
+  from {
+    transform: translate(200px)
+  }
+  to {
+    transform: translate(500px);
+  }
+}
+```
+
+### Sintaxe
+```
+animation-fill-mode: none | forwards | backwards | both | initial | 
+inherit;
+```
+
+### Exampla forwards
+
+```css
+animation-fill-mode: forwards;
+```
+
+<img src=".github/mario-forwards.png" alt="imagem">
+
+### Exampla backwards
+
+```css
+animation-fill-mode: backwards;
+```
+
+<img src=".github/mario-backwards.png" alt="imagem">

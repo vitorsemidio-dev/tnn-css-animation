@@ -52,13 +52,17 @@ img {
 
   animation-name: drive;
   animation-duration: 3s;
+  /* animation-fill-mode: forwards; */
+  /* animation-fill-mode: backwards; */
+  animation-fill-mode: both;
+  animation-delay: 1s;
 }
 
 /*// KEYFRAMES //*/
 
 @keyframes drive {
   from {
-    transform: translate(0)
+    transform: translate(200px)
   }
   to {
     transform: translate(500px);
