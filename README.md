@@ -167,3 +167,10 @@ animation-fill-mode: backwards;
 ```
 
 <img src=".github/mario-backwards.png" alt="imagem">
+
+
+## Direção
+
+```
+animation-direction: alternate alternate-reverse normal reverse initial inherit unset;
+```
