@@ -5,6 +5,11 @@
 [CSS Animation Tutorial](https://www.youtube.com/watch?v=jgw82b5Y2MU&list=PL4cUxeGkcC9iGYgmEd2dm3zAKzyCGDtM5)
 
 
+### Sintaxe
+```
+ animation: name duration timing-function delay iteration-count direction fill-mode;
+```
+
 ## Translate
 
 Movimenta o elemento em um determinado sentido. Opções são **translateX**, **translateY** nos respectivos eixos. Valores positivos passados por parâmetros movimenta o elemento para direita e baixo, respectivamente. Também é possível utilizar somente **translate** passando 1 ou 2 argumentos.
