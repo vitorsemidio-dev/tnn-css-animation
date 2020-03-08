@@ -2,7 +2,7 @@
 
 ## Link Playlist
 
-[CSS Animation Tutorial](https://www.youtube.com/watch?v=jgw82b5Y2MU)
+[CSS Animation Tutorial](https://www.youtube.com/watch?v=jgw82b5Y2MU&list=PL4cUxeGkcC9iGYgmEd2dm3zAKzyCGDtM5)
 
 
 ## Translate
@@ -173,4 +173,32 @@ animation-fill-mode: backwards;
 
 ```
 animation-direction: alternate alternate-reverse normal reverse initial inherit unset;
+```
+
+## Timing Function
+
+[Cubic Bezier](https://cubic-bezier.com/#.17,.67,.83,.67)
+
+
+[W3schools](https://www.w3schools.com/cssref/css3_pr_animation-timing-function.asp)
+Função   | Descrição
+--------- | ------
+linear | The animation has the same speed from start to end
+ease | Default value. The animation has a slow start, then fast, before it ends slowly
+ease-in | The animation has a slow start
+ease-out | The animation has a slow end
+ease-in-out | The animation has both a slow start and a slow end
+
+```css
+.timing1 {animation-timing-function: linear;}
+.timing2 {animation-timing-function: ease;}
+.timing3 {animation-timing-function: ease-in;}
+.timing4 {animation-timing-function: ease-out;}
+.timing5 {animation-timing-function: ease-in-out;}
+
+.cubic1 {animation-timing-function: cubic-bezier(0,0,1,1);}
+.cubic2 {animation-timing-function: cubic-bezier(0.25,0.1,0.25,1);}
+.cubic3 {animation-timing-function: cubic-bezier(0.42,0,1,1);}
+.cubic4 {animation-timing-function: cubic-bezier(0,0,0.58,1);}
+.cubic5 {animation-timing-function: cubic-bezier(0.42,0,0.58,1);}
 ```

@@ -57,6 +57,7 @@ img {
   animation-fill-mode: both;
   animation-delay: 1s;
   animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .luigi {
@@ -69,6 +70,7 @@ img {
   animation-fill-mode: both;
   animation-iteration-count: infinite;
   animation-direction: reverse;
+  animation-timing-function: linear;
 }
 
 /*// KEYFRAMES //*/
